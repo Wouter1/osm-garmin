@@ -1,0 +1,16 @@
+#
+# There are a large number of tags names that 
+# have become hardwired into mkgmap.  This is list
+# of these tags.
+#
+# It only includes tags that are expected in the input file
+# and not tags that might be added in a style file that are
+# later recognised by mkgmap. In general these begin with the
+# string 'mkgmap:'
+#
+exit:facility
+exit:road_ref
+exit:to
+junction
+name
+oneway

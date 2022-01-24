@@ -1,9 +1,0 @@
-
-version: 2.2
-
-summary: A style based on simple
-
-base-style: simple
-
-description : testing derived styles.
-

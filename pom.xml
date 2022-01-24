@@ -1,0 +1,149 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>uk.me.parabola</groupId>
+	<artifactId>mkgmap</artifactId>
+	<version>4855</version>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<basedir>.</basedir>
+	</properties>
+
+	<repositories>
+		<repository>
+			<id>osgeo</id>
+			<url>https://repo.osgeo.org/repository/release</url>
+		</repository>
+		<repository>
+			<id>onebusaway</id>
+			<url>http://nexus.onebusaway.org/nexus/content/repositories/public</url>
+		</repository>
+	</repositories>
+
+
+	<dependencies>
+		<!-- crosby: https://github.com/openstreetmap/OSM-binary -->
+		<!-- Using 1.5.0 to match the splitter version -->
+		<!-- https://mvnrepository.com/artifact/org.openstreetmap.pbf/osmpbf -->
+		<!-- https://mvnrepository.com/artifact/crosby.binary/osmpbf -->
+		<!-- We SHOULD have usd 1.3.3 but I can't find it... -->
+		<dependency>
+			<groupId>crosby.binary</groupId>
+			<artifactId>osmpbf</artifactId>
+			<version>1.3.4</version>
+		</dependency>
+
+
+		<!-- https://mvnrepository.com/artifact/it.unimi.dsi/fastutil -->
+		<dependency>
+			<groupId>it.unimi.dsi</groupId>
+			<artifactId>fastutil</artifactId>
+			<version>6.5.16</version>
+		</dependency>
+
+		<!-- This csomehow contains org/w3c/dom/ls/DocumentLS and related files.
+		Stupid workaround, maybe I can find something better? -->
+		<dependency>
+			<groupId>xerces</groupId>
+			<artifactId>xercesImpl</artifactId>
+			<version>2.11.0</version>
+		</dependency>
+		
+		
+
+		<dependency>
+			<groupId>innig</groupId>
+			<artifactId>macker</artifactId>
+			<version>0.4.2</version>
+		</dependency>
+		<!-- the following are dependencies of macker, but macker's POM file doesn't 
+			list them so they're listed manually here -->
+		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+			<version>1.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>innig</groupId>
+			<artifactId>innig-util</artifactId>
+			<version>0.4.2</version>
+		</dependency>
+		<dependency>
+			<groupId>bcel</groupId>
+			<artifactId>bcel</artifactId>
+			<version>5.1</version>
+		</dependency>
+		<dependency>
+			<groupId>jdom</groupId>
+			<artifactId>jdom</artifactId>
+			<version>b9</version>
+		</dependency>
+
+
+
+		<dependency>
+			<groupId>com.ibm.icu</groupId>
+			<artifactId>icu4j</artifactId>
+			<version>53.1</version>
+		</dependency>
+
+
+
+		<!-- https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api -->
+		<dependency>
+			<groupId>javax.xml.bind</groupId>
+			<artifactId>jaxb-api</artifactId>
+			<version>2.3.1</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>uk.me.parabola</groupId>
+			<artifactId>splitter</artifactId>
+			<version>412</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.geotools/gt-cql -->
+		<dependency>
+			<groupId>org.geotools</groupId>
+			<artifactId>gt-cql</artifactId>
+			<version>2.7.5</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.geotools</groupId>
+			<artifactId>gt-api</artifactId>
+			<version>2.7.5</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.geotools</groupId>
+			<artifactId>gt-shapefile</artifactId>
+			<version>2.7.5</version>
+		</dependency>
+
+
+
+		<!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest-core -->
+		<dependency>
+			<groupId>org.hamcrest</groupId>
+			<artifactId>hamcrest-core</artifactId>
+			<version>2.2</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/junit/junit -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
+			<scope>test</scope>
+		</dependency>
+
+
+	</dependencies>
+</project>

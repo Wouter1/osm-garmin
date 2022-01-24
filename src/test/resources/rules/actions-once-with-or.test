@@ -1,0 +1,22 @@
+WAY
+A=1
+B=2
+C=3
+
+WAY 2
+C=3
+E=5
+
+<<<lines>>>
+( A=1 | B=2 | C=3 | D=4 | E=5)
+	{ set name='${name}b' | '${A} ${B}' | '${C}' | '${E}'; }
+
+A=1 [0x1]
+E=5 [0x2]
+
+<finalize>
+name=* { name '${name}' }
+
+<<<results>>>
+WAY 1: Line 0x1, labels=[1 2, null, null, null], res=24-24 (1/1),(2/2),
+WAY 2: Line 0x2, labels=[3, null, null, null], res=24-24 (1/1),(2/2),

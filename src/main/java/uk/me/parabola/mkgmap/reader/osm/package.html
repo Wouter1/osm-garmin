@@ -1,0 +1,61 @@
+<body>
+<h3>OpenStreetMap converter</h3>
+
+<p>
+	This package has the code to read in a file that is in the Open Street Map
+	format (.osm files). OSM uses an XML format.  The bulk of the code exists
+	to map from the OSM format to the garmin types.  In general we need
+	to look at several tags to decide on the correct garmin feature type to
+	use.  The initial versions of mkgmap could only deal with cases where
+	a single tag value was sufficient.  This was simple and works for a large
+	number of cases, but makes some things completely impossible.
+	The <em>new style system</em> will remove this limitation.
+
+<p>
+		Version 0.4 of the api is no longer supported.
+
+<h4>OSM api version 0.5</h4>
+
+<p>This version of the format does away with segments.  Ways are sequences of
+nodes.  As such it matches the format that we require for the Garmin maps
+much closer than the previous version of the api.  Ways cannot branch or have
+out of order segments, so all the code that deals with that is not required.</p>
+
+<h3>About the conversion</h3>
+<p>The following features of the OSM format need to be addressed to create
+the map.
+
+<ul>
+		<li>There is no way to tell a polygon from a line feature apart from
+		looking at the type of feature it is and going from there. Note that a
+		line feature may form a loop (eg a roundabout, circular path in a park
+		etc.) so you can't use that.  </li>
+
+		<li>Map features are represented by tags.  There is no fixed list of
+		tags and what they mean and new ones can be made up at any time.  You
+		do not know which tag is telling you the type of the feature and which
+		tags are just incidental.  It is also possible that you need to look at
+		more than one tag to get the map feature.  For example with towns you
+		may want to look at the population tag to work out how it is to be
+		represented in Garmin features.  We have to have a look up table that
+		maps OSM tags to garmin types and subtypes.</li>
+</ul>
+
+<h3>New Style Converter</h3>
+<p>With this style converter you can have several named styles which
+can be built into mkgmap.  A style consists of a number of different
+files held in a directory.  The different files mean that there is
+a lot more flexibility available.</p>
+
+<h4>Files</h4>
+The version 0 list of files is as follows.
+<dl>
+	<dt>version</dt>
+	<dd>Every style must have a version file.  It contains a single number.</dd>
+
+	<dt>map-features.csv</dt>
+	<dd>This is the map features file exactly as before.</dd>
+</dl>
+
+
+</body>

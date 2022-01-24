@@ -1,0 +1,17 @@
+
+Help is available on the following topics:
+
+--help
+	General help.
+
+--help=options
+	The command line options
+
+--help=links
+	Browser links to more information about mkgmap and Open Street Map.
+
+--help=copyright
+	Copyright information.
+
+--help=logging
+	Information on how to control logging.

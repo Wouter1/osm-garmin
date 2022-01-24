@@ -1,0 +1,30 @@
+
+WAY
+highway=tertiary
+name=b
+oneway=yes
+cycleway=opposite
+
+WAY 2
+highway=tertiary
+name=b
+oneway=yes
+cycleway=opposite_lane
+
+
+<<<lines>>>
+highway ~ '(secondary|tertiary|unclassified|residential|minor|living_street|service)'
+	& oneway=*
+	& (cycleway=opposite | cycleway=opposite_lane | cycleway=opposite_track )
+	{ set name='a${name}' }
+	[0x2 road_class=1]
+
+
+<finalize>
+highway=* {name '${name}' }
+
+<<<results>>>
+WAY 1: Road 0x2, labels=[ab, null, null, null], res=24-24 oneway (1/1),(2/2), road class=1 speed=0
+WAY 2: Road 0x2, labels=[ab, null, null, null], res=24-24 oneway (1/1),(2/2), road class=1 speed=0
+
+

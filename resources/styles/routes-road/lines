@@ -1,1 +1,0 @@
-mkgmap:route=* { name '${mkgmap:route}' } [0x1a resolution 18]

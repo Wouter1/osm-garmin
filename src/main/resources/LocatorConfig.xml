@@ -1,0 +1,1206 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<locator>
+	<country name="Afghanistan" abr="AFG">
+		<variant>AF</variant>
+		<variant>AFG</variant>
+		<variant>‏افغانستان‎</variant>
+	</country>
+	<country name="Åland Islands" abr="ALA" streetBeforeHousenumber="true" postalcodeBeforeCity="true">
+		<variant>AX</variant>
+		<variant>ALA</variant>
+		<variant>Åland</variant>
+		<variant>Ahvenanmaa</variant>
+	</country>
+	<country name="Albania" abr="ALB">
+		<variant>AL</variant>
+		<variant>ALB</variant>
+		<variant>Shqipëria</variant>
+	</country>
+	<country name="Algeria" abr="DZA">
+		<variant>DZ</variant>
+		<variant>DZA</variant>
+		<variant>Algérie</variant>
+	</country>
+	<country name="American Samoa" abr="ASM">
+		<variant>AS</variant>
+		<variant>ASM</variant>
+	</country>
+	<country name="Andorra" abr="AND">
+		<variant>AD</variant>
+		<variant>AND</variant>
+	</country>
+	<country name="Angola" abr="AGO">
+		<variant>AO</variant>
+		<variant>AGO</variant>
+	</country>
+	<country name="Anguilla" abr="AIA" driveOnLeft="true">
+		<variant>AI</variant>
+		<variant>AIA</variant>
+	</country>
+	<country name="Antarctica" abr="ATA">
+		<variant>AQ</variant>
+		<variant>ATA</variant>
+	</country>
+	<country name="Antigua and Barbuda" abr="ATG" driveOnLeft="true">
+		<variant>AG</variant>
+		<variant>ATG</variant>
+	</country>
+	<country name="Argentina" abr="ARG" streetBeforeHousenumber="true" postalcodeBeforeCity="true">
+		<variant>AR</variant>
+		<variant>ARG</variant>
+	</country>
+	<country name="Armenia" abr="ARM">
+		<variant>AM</variant>
+		<variant>ARM</variant>
+	</country>
+	<country name="Aruba" abr="ABW">
+		<variant>AW</variant>
+		<variant>ABW</variant>
+	</country>
+	<country name="Australia" abr="AUS" driveOnLeft="true">
+		<variant>AU</variant>
+		<variant>AUS</variant>
+	</country>
+	<country name="Österreich" abr="AUT" streetBeforeHousenumber="true" postalcodeBeforeCity="true">
+		<variant>Austria</variant>
+		<variant>AT</variant>
+		<variant>AUT</variant>
+		<variant>Oesterreich</variant>
+		<variant>Oestereich</variant>
+		<variant>Östereich</variant>
+	</country>
+	<country name="Azerbaijan" abr="AZE">
+		<variant>AZ</variant>
+		<variant>AZE</variant>
+		<variant>Azərbaycan</variant>
+	</country>
+	<country name="Bahamas" abr="BHS" driveOnLeft="true">
+		<variant>BS</variant>
+		<variant>BHS</variant>
+		<variant>The Bahamas</variant>
+	</country>
+	<country name="Bahrain" abr="BHR">
+		<variant>BH</variant>
+		<variant>BHR</variant>
+		<variant>الإسلامية</variant>
+	</country>
+	<country name="Bangladesh" abr="BGD" driveOnLeft="true">
+		<variant>BD</variant>
+		<variant>BGD</variant>
+		<variant>বাংলাদেশ</variant>
+	</country>
+	<country name="Barbados" abr="BRB" driveOnLeft="true">
+		<variant>BB</variant>
+		<variant>BRB</variant>
+	</country>
+	<country name="Belarus" abr="BLR" streetBeforeHousenumber="true" postalcodeBeforeCity="true">
+		<variant>BY</variant>
+		<variant>BLR</variant>
+		<variant>Réspublíka Belarus'</variant>
+		<variant>Republic of Belarus</variant>
+		<variant>Рэспубліка Беларусь</variant>
+	</country>
+	<country name="België - Belgique" abr="BEL" streetBeforeHousenumber="true" postalcodeBeforeCity="true">
+		<variant>BE</variant>
+		<variant>BEL</variant>
+		<variant>België</variant>
+		<variant>Belgique</variant>
+		<variant>Belgium</variant>
+		<variant>Belgien</variant>
+		<variant>België - Belgique - Belgien</variant>
+	</country>
+	<country name="Belize" abr="BLZ">
+		<variant>BZ</variant>
+		<variant>BLZ</variant>
+	</country>
+	<country name="Benin" abr="BEN">
+		<variant>BJ</variant>
+		<variant>BEN</variant>
+	</country>
+	<country name="Bermuda" abr="BMU" driveOnLeft="true">
+		<variant>BM</variant>
+		<variant>BMU</variant>
+	</country>
+	<country name="Bhutan" abr="BTN" driveOnLeft="true">
+		<variant>BT</variant>
+		<variant>BTN</variant>
+	</country>
+	<country name="Bolivia" abr="BOL" streetBeforeHousenumber="true" postalcodeBeforeCity="true">
+		<variant>Plurinational State of Bolivia</variant>
+		<variant>BO</variant>
+		<variant>BOL</variant>
+	</country>
+	<country name="Bonaire" abr="BES">
+		<variant>BQ</variant>
+		<variant>BES</variant>
+	</country>
+	<country name="Bosna I Hercegovina" abr="BIH">
+		<variant>BA</variant>
+		<variant>BIH</variant>
+		<variant>Bosnia and Herzegovina</variant>
+	</country>
+	<country name="Botswana" abr="BWA" driveOnLeft="true">
+		<variant>BW</variant>
+		<variant>BWA</variant>
+	</country>
+	<country name="Bouvet Island" abr="BVT">
+		<variant>BV</variant>
+		<variant>BVT</variant>
+	</country>
+	<country name="Brasil" abr="BRA" streetBeforeHousenumber="true">
+		<variant>BR</variant>
+		<variant>BRA</variant>
+		<variant>Brazil</variant>
+	</country>
+	<country name="British Indian Ocean Territory" abr="IOT">
+		<variant>IO</variant>
+		<variant>IOT</variant>
+	</country>
+	<country name="British Sovereign Base Areas" abr="SBA" driveOnLeft="true">
+		<variant>SBA</variant>
+	</country>
+	<country name="Brunei Darussalam" abr="BRN"  driveOnLeft="true">
+		<variant>BN</variant>
+		<variant>BRN</variant>
+		<variant>برني دارالسلام‎</variant>
+		<variant>Brunei</variant>
+	</country>
+	<country name="Bulgaria" abr="BGR">
+		<variant>BG</variant>
+		<variant>BGR</variant>
+		<variant>България</variant>
+	</country>
+	<country name="Burkina Faso" abr="BFA">
+		<variant>BF</variant>
+		<variant>BFA</variant>
+	</country>
+	<country name="Burundi" abr="BDI">
+		<variant>BI</variant>
+		<variant>BDI</variant>
+	</country>
+	<country name="Cambodia" abr="KHM">
+		<variant>KH</variant>
+		<variant>KHM</variant>
+		<variant>ព្រះរាជាណាចក្រកម្ពុជា</variant>
+	</country>
+	<country name="Cameroon" abr="CMR">
+		<variant>CM</variant>
+		<variant>CMR</variant>
+		<variant>Cameroun</variant>
+	</country>
+	<country name="Canada" abr="CAN">
+		<variant>CA</variant>
+		<variant>CAN</variant>
+	</country>
+	<country name="Cape Verde" abr="CPV">
+		<variant>CV</variant>
+		<variant>CPV</variant>
+		<variant>Cabo Verde</variant>
+	</country>
+	<country name="Cayman Islands" abr="CYM" driveOnLeft="true">
+		<variant>KY</variant>
+		<variant>CYM</variant>
+	</country>
+	<country name="Central African Republic" abr="CAF">
+		<variant>CF</variant>
+		<variant>CAF</variant>
+		<variant>Ködrö tî Bê-Afrika</variant>
+	</country>
+	<country name="Chad" abr="TCD">
+		<variant>TD</variant>
+		<variant>TCD</variant>
+		<variant>جمهوريّة تشاد</variant>
+	</country>
+	<country name="Chile" abr="CHL" streetBeforeHousenumber="true" postalcodeBeforeCity="true">
+		<variant>CL</variant>
+		<variant>CHL</variant>
+	</country>
+	<country name="China" abr="CHN">
+		<variant>CN</variant>
+		<variant>CHN</variant>
+		<variant>People's Republic of China</variant>
+	</country>
+	<country name="Christmas Island" abr="CXR" driveOnLeft="true">
+		<variant>CX</variant>
+		<variant>CXR</variant>
+	</country>
+	<country name="Cocos (Keeling) Islands" abr="CCK" driveOnLeft="true">
+		<variant>CC</variant>
+		<variant>CCK</variant>
+	</country>
+	<country name="Colombia" abr="COL">
+		<variant>CO</variant>
+		<variant>COL</variant>
+	</country>
+	<country name="Comoros" abr="COM">
+		<variant>KM</variant>
+		<variant>COM</variant>
+		<variant>Komori</variant>
+	</country>
+	<country name="Republic of the Congo" abr="COG">
+		<variant>CG</variant>
+		<variant>COG</variant>
+		<variant>Congo-Brazzaville</variant>
+	</country>
+	<country name="Democratic Republic of the Congo" abr="COD">
+		<variant>The Democratic Republic of the Congo</variant>
+		<variant>CD</variant>
+		<variant>COD</variant>
+		<variant>Congo-Kinshasa</variant>
+	</country>
+	<country name="Cook Islands" abr="COK" driveOnLeft="true">
+		<variant>CK</variant>
+		<variant>COK</variant>
+	</country>
+	<country name="Costa Rica" abr="CRI">
+		<variant>CR</variant>
+		<variant>CRI</variant>
+	</country>
+	<country name="Côte d'Ivoire" abr="CIV">
+		<variant>CI</variant>
+		<variant>CIV</variant>
+	</country>
+	<country name="Hrvatska" abr="HRV" streetBeforeHousenumber="true" postalcodeBeforeCity="true">
+		<variant>HR</variant>
+		<variant>HRV</variant>
+		<variant>Croatia</variant>
+	</country>
+	<country name="Cuba" abr="CUB">
+		<variant>CU</variant>
+		<variant>CUB</variant>
+	</country>
+	<country name="Curaçao" abr="CUW">
+		<variant>CW</variant>
+		<variant>CUW</variant>
+	</country>
+	<country name="Cyprus" abr="CYP" driveOnLeft="true">
+		<variant>CY</variant>
+		<variant>CYP</variant>
+		<variant>Κυπριακή Δημοκρατία</variant>
+	</country>
+	<country name="Ceská Republika" abr="CZE" streetBeforeHousenumber="true" postalcodeBeforeCity="true">
+		<variant>CZ</variant>
+		<variant>CZE</variant>
+		<variant>Czech Republic</variant>
+		<variant>Česká republika</variant>
+	</country>
+	<country name="Danmark" abr="DNK" streetBeforeHousenumber="true" postalcodeBeforeCity="true">
+		<variant>Denmark</variant>
+		<variant>DK</variant>
+		<variant>DNK</variant>
+	</country>
+	<country name="Djibouti" abr="DJI">
+		<variant>DJ</variant>
+		<variant>DJI</variant>
+	</country>
+	<country name="Dominica" abr="DMA" driveOnLeft="true">
+		<variant>DM</variant>
+		<variant>DMA</variant>
+	</country>
+	<country name="Dominican Republic" abr="DOM">
+		<variant>DO</variant>
+		<variant>DOM</variant>
+		<variant>República Dominicana</variant>
+	</country>
+	<country name="Ecuador" abr="ECU">
+		<variant>EC</variant>
+		<variant>ECU</variant>
+	</country>
+	<country name="Egypt" abr="EGY">
+		<variant>EG</variant>
+		<variant>EGY</variant>
+		<variant>جمهورية مصر العربية</variant>
+	</country>
+	<country name="El Salvador" abr="SLV">
+		<variant>SV</variant>
+		<variant>SLV</variant>
+	</country>
+	<country name="Equatorial Guinea" abr="GNQ">
+		<variant>GQ</variant>
+		<variant>GNQ</variant>
+		<variant>Guinea Ecuatorial</variant>
+	</country>
+	<country name="Eritrea" abr="ERI">
+		<variant>ER</variant>
+		<variant>ERI</variant>
+	</country>
+	<country name="Eesti" abr="EST" streetBeforeHousenumber="true" postalcodeBeforeCity="true">
+		<variant>Eesti Vabariik</variant>
+		<variant>Estonia</variant>
+		<variant>EE</variant>
+		<variant>EST</variant>
+	</country>
+	<country name="Ethiopia" abr="ETH">
+		<variant>ET</variant>
+		<variant>ETH</variant>
+	</country>
+	<country name="Falkland Islands (Malvinas)" abr="FLK" driveOnLeft="true">
+		<variant>FK</variant>
+		<variant>FLK</variant>
+	</country>
+	<country name="Faroe Islands" abr="FRO">
+		<variant>FO</variant>
+		<variant>FRO</variant>
+		<variant>Føroyar</variant>
+	</country>
+	<country name="Fiji" abr="FJI" driveOnLeft="true">
+		<variant>FJ</variant>
+		<variant>FJI</variant>
+		<variant>VITI</variant>
+	</country>
+	<country name="Suomi" abr="FIN" streetBeforeHousenumber="true" postalcodeBeforeCity="true">
+		<variant>Finland</variant>
+		<variant>FI</variant>
+		<variant>FIN</variant>
+	</country>
+	<country name="France" abr="FRA" postalcodeBeforeCity="true">
+		<variant>FR</variant>
+		<variant>FRA</variant>
+		<variant>Metropolitan France</variant>
+		<variant>France métropolitaine</variant>
+	</country>
+	<country name="French Guiana" abr="GUF">
+		<variant>GF</variant>
+		<variant>GUF</variant>
+	</country>
+	<country name="French Polynesia" abr="PYF">
+		<variant>PF</variant>
+		<variant>PYF</variant>
+	</country>
+	<country name="French Southern Territories" abr="ATF">
+		<variant>TF</variant>
+		<variant>ATF</variant>
+	</country>
+	<country name="Gabon" abr="GAB">
+		<variant>GA</variant>
+		<variant>GAB</variant>
+	</country>
+	<country name="Gambia" abr="GMB">
+		<variant>GM</variant>
+		<variant>GMB</variant>
+		<variant>The Gambia</variant>
+	</country>
+	<country name="Georgia" abr="GEO">
+		<variant>GE</variant>
+		<variant>GEO</variant>
+		<variant>საქართველო</variant>
+	</country>
+	<country name="Deutschland" abr="DEU" regionOffset="3" streetBeforeHousenumber="true" postalcodeBeforeCity="true">
+		<variant>Bundesrepublik Deutschland</variant>
+		<variant>Germany</variant>
+		<variant>Federal Republic of Germany</variant>
+		<variant>DE</variant>
+		<variant>DEU</variant>
+	</country>
+	<country name="Ghana" abr="GHA">
+		<variant>GH</variant>
+		<variant>GHA</variant>
+	</country>
+	<country name="Gibraltar" abr="GIB">
+		<variant>GI</variant>
+		<variant>GIB</variant>
+	</country>
+	<country name="Greece" abr="GRC" streetBeforeHousenumber="true">
+		<variant>GR</variant>
+		<variant>GRC</variant>
+		<variant>Elláda</variant>
+		<variant>Ελλάδα</variant>
+	</country>
+	<country name="Greenland" abr="GRL">
+		<variant>GL</variant>
+		<variant>GRL</variant>
+	</country>
+	<country name="Grenada" abr="GRD" driveOnLeft="true">
+		<variant>GD</variant>
+		<variant>GRD</variant>
+	</country>
+	<country name="Guadeloupe" abr="GLP">
+		<variant>GP</variant>
+		<variant>GLP</variant>
+		<variant>Guadeloupe - Eaux Territoriales</variant>
+	</country>
+	<country name="Guam" abr="GUM">
+		<variant>GU</variant>
+		<variant>GUM</variant>
+	</country>
+	<country name="Guatemala" abr="GTM">
+		<variant>GT</variant>
+		<variant>GTM</variant>
+	</country>
+	<country name="Guernsey" abr="GGY" driveOnLeft="true">
+		<variant>GG</variant>
+		<variant>GGY</variant>
+	</country>
+	<country name="Guinea" abr="GIN">
+		<variant>GN</variant>
+		<variant>GIN</variant>
+	</country>
+	<country name="Guinea-Bissau" abr="GNB">
+		<variant>GW</variant>
+		<variant>GNB</variant>
+		<variant>Guiné-Bissau</variant>
+	</country>
+	<country name="Guyana" abr="GUY" driveOnLeft="true">
+		<variant>GY</variant>
+		<variant>GUY</variant>
+	</country>
+	<country name="Haiti" abr="HTI">
+		<variant>HT</variant>
+		<variant>HTI</variant>
+		<variant>Ayiti</variant>
+	</country>
+	<country name="Heard Island and McDonald Islands" abr="HMD">
+		<variant>HM</variant>
+		<variant>HMD</variant>
+	</country>
+	<country name="Vatican" abr="VAT">
+		<variant>Holy See</variant>
+		<variant>VA</variant>
+		<variant>VAT</variant>
+		<variant>Vatican City</variant>
+		<variant>Status Civitatis Vaticanæ</variant>
+	</country>
+	<country name="Honduras" abr="HND">
+		<variant>HN</variant>
+		<variant>HND</variant>
+	</country>
+	<country name="Hong Kong" abr="HKG" driveOnLeft="true">
+		<variant>HK</variant>
+		<variant>HKG</variant>
+	</country>
+	<country name="Hungary" abr="HUN" streetBeforeHousenumber="true">
+		<variant>HU</variant>
+		<variant>HUN</variant>
+		<variant>Magyarország</variant>
+	</country>
+	<country name="Ísland" abr="ISL" streetBeforeHousenumber="true" postalcodeBeforeCity="true">
+		<variant>Lýðveldið Ísland</variant>
+		<variant>Iceland</variant>
+		<variant>IS</variant>
+		<variant>ICE</variant>
+		<variant>ISL</variant>
+	</country>
+	<country name="India" abr="IND" driveOnLeft="true">
+		<variant>IN</variant>
+		<variant>IND</variant>
+	</country>
+	<country name="Indonesia" abr="IDN" streetBeforeHousenumber="true" driveOnLeft="true">
+		<variant>ID</variant>
+		<variant>IDN</variant>
+	</country>
+	<country name="Iran" abr="IRN">
+		<variant>Islamic Republic of Iran</variant>
+		<variant>IR</variant>
+		<variant>IRN</variant>
+		<variant>‏ايران‎</variant>
+	</country>
+	<country name="Iraq" abr="IRQ">
+		<variant>IQ</variant>
+		<variant>IRQ</variant>
+		<variant>جمهورية العراق</variant>
+	</country>
+	<country name="Ireland" abr="IRL" regionOffset="3" driveOnLeft="true">
+		<variant>Republic of Ireland</variant>
+		<variant>Éire</variant>
+		<variant>IE</variant>
+		<variant>IRL</variant>
+	</country>
+	<country name="Isle of Man" abr="IMN" driveOnLeft="true">
+		<variant>IM</variant>
+		<variant>IMN</variant>
+	</country>
+	<country name="Israel" abr="ISR" streetBeforeHousenumber="true">
+		<variant>IL</variant>
+		<variant>ISR</variant>
+		<variant>מדינת ישראל</variant>
+	</country>
+	<country name="Italia" abr="ITA" regionOffset="2" streetBeforeHousenumber="true" postalcodeBeforeCity="true">
+		<variant>Italy</variant>
+		<variant>IT</variant>
+		<variant>ITA</variant>
+	</country>
+	<country name="Jamaica" abr="JAM" driveOnLeft="true">
+		<variant>JM</variant>
+		<variant>JAM</variant>
+	</country>
+	<country name="Japan" abr="JPN" driveOnLeft="true">
+		<variant>JP</variant>
+		<variant>JPN</variant>
+		<variant>日本</variant>
+	</country>
+	<country name="Jersey" abr="JEY" driveOnLeft="true">
+		<variant>JE</variant>
+		<variant>JEY</variant>
+	</country>
+	<country name="Jordan" abr="JOR">
+		<variant>JO</variant>
+		<variant>JOR</variant>
+	</country>
+	<country name="Kazakhstan" abr="KAZ">
+		<variant>KZ</variant>
+		<variant>KAZ</variant>
+		<variant>Казахстан</variant>
+	</country>
+	<country name="Kenya" abr="KEN" driveOnLeft="true">
+		<variant>KE</variant>
+		<variant>KEN</variant>
+	</country>
+	<country name="Kiribati" abr="KIR" driveOnLeft="true">
+		<variant>KI</variant>
+		<variant>KIR</variant>
+	</country>
+	<country name="North Korea" abr="PRK">
+		<variant>Democratic People's Republic of Korea</variant>
+		<variant>KP</variant>
+		<variant>PRK</variant>
+		<variant>조선민주주의인민공화국</variant>
+	</country>
+	<country name="South Korea" abr="KOR">
+		<variant>Republic of Korea</variant>
+		<variant>KR</variant>
+		<variant>KOR</variant>
+		<variant>대한민국</variant>
+	</country>
+	<country name="Kuwait" abr="KWT">
+		<variant>KW</variant>
+		<variant>KWT</variant>
+	</country>
+	<country name="Kyrgyzstan" abr="KGZ">
+		<variant>KG</variant>
+		<variant>KGZ</variant>
+		<variant>Кыргызстан</variant>
+	</country>
+	<country name="Laos" abr="LAO">
+		<variant>Lao People's Democratic Republic</variant>
+		<variant>LA</variant>
+		<variant>LAO</variant>
+	</country>
+	<country name="Latvija" abr="LVA" streetBeforeHousenumber="true">
+		<variant>LV</variant>
+		<variant>LVA</variant>
+		<variant>Latvia</variant>
+	</country>
+	<country name="Lebanon" abr="LBN">
+		<variant>LB</variant>
+		<variant>LBN</variant>
+		<variant>الجمهورية اللبنانية</variant>
+	</country>
+	<country name="Lesotho" abr="LSO" driveOnLeft="true">
+		<variant>LS</variant>
+		<variant>LSO</variant>
+		<variant>Kingdom of Lesotho</variant>
+		<variant>Muso oa Lesotho</variant>
+	</country>
+	<country name="Liberia" abr="LBR">
+		<variant>LR</variant>
+		<variant>LBR</variant>
+	</country>
+	<country name="Libya" abr="LBY">
+		<variant>Libyan Arab Jamahiriya</variant>
+		<variant>LY</variant>
+		<variant>LBY</variant>
+		<variant>الجماهيرية الليبية</variant>
+	</country>
+	<country name="Liechtenstein" abr="LIE">
+		<variant>LI</variant>
+		<variant>LIE</variant>
+	</country>
+	<country name="Lietuva" abr="LTU">
+		<variant>LT</variant>
+		<variant>LTU</variant>
+		<variant>Lithuania</variant>
+	</country>
+	<country name="Luxembourg" abr="LUX">
+		<variant>LU</variant>
+		<variant>LUX</variant>
+		<variant>Groussherzogtum Lëtzebuerg</variant>
+		<variant>Grand Duchy of Luxembourg</variant>
+	</country>
+	<country name="Macao" abr="MAC" driveOnLeft="true">
+		<variant>MO</variant>
+		<variant>MAC</variant>
+	</country>
+	<country name="Makedonija" abr="MKD">
+		<variant>MK</variant>
+		<variant>MKD</variant>
+		<variant>Macedonia</variant>
+		<variant>Македонија</variant>
+	</country>
+	<country name="Madagascar" abr="MDG">
+		<variant>MG</variant>
+		<variant>MDG</variant>
+		<variant>Madagasikara</variant>
+	</country>
+	<country name="Malawi" abr="MWI" driveOnLeft="true">
+		<variant>MW</variant>
+		<variant>MWI</variant>
+		<variant>Republic of Malawi</variant>
+	</country>
+	<country name="Malaysia" abr="MYS" driveOnLeft="true">
+		<variant>MY</variant>
+		<variant>MYS</variant>
+	</country>
+	<country name="Maldives" abr="MDV" driveOnLeft="true">
+		<variant>MV</variant>
+		<variant>MDV</variant>
+		<variant>ދިވެހިރާއްޖޭގެ ޖުމުހޫރިއްޔާ</variant>
+	</country>
+	<country name="Mali" abr="MLI">
+		<variant>ML</variant>
+		<variant>MLI</variant>
+	</country>
+	<country name="Malta" abr="MLT" driveOnLeft="true">
+		<variant>MT</variant>
+		<variant>MLT</variant>
+	</country>
+	<country name="Marshall Islands" abr="MHL">
+		<variant>MH</variant>
+		<variant>MHL</variant>
+		<variant>Aolepān Aorōkin M̧ajeļ</variant>
+	</country>
+	<country name="Martinique" abr="MTQ">
+		<variant>MQ</variant>
+		<variant>MTQ</variant>
+	</country>
+	<country name="Mauritania" abr="MRT">
+		<variant>MR</variant>
+		<variant>MRT</variant>
+	</country>
+	<country name="Mauritius" abr="MUS" driveOnLeft="true">
+		<variant>MU</variant>
+		<variant>MUS</variant>
+	</country>
+	<country name="Mayotte" abr="MYT">
+		<variant>YT</variant>
+		<variant>MYT</variant>
+		<variant>Mayotte - Eaux territoriales</variant>
+	</country>
+	<country name="Mexico" abr="MEX" streetBeforeHousenumber="true" postalcodeBeforeCity="true">
+		<variant>MX</variant>
+		<variant>MEX</variant>
+		<variant>México</variant>
+	</country>
+	<country name="Micronesia" abr="FSM">
+		<variant>Federated States of Micronesia</variant>
+		<variant>FM</variant>
+		<variant>FSM</variant>
+	</country>
+	<country name="Moldova" abr="MDA">
+		<variant>Republic of Moldova</variant>
+		<variant>MD</variant>
+		<variant>MDA</variant>
+	</country>
+	<country name="Monaco" abr="MCO">
+		<variant>MC</variant>
+		<variant>MCO</variant>
+	</country>
+	<country name="Mongolia" abr="MNG">
+		<variant>MN</variant>
+		<variant>MNG</variant>
+	</country>
+	<country name="Montenegro" abr="MNE" streetBeforeHousenumber="true">
+		<variant>ME</variant>
+		<variant>MNE</variant>
+	</country>
+	<country name="Montserrat" abr="MSR"  driveOnLeft="true">
+		<variant>MS</variant>
+		<variant>MSR</variant>
+	</country>
+	<country name="Morocco" abr="MAR">
+		<variant>MA</variant>
+		<variant>MAR</variant>
+	</country>
+	<country name="Mozambique" abr="MOZ" driveOnLeft="true">
+		<variant>MZ</variant>
+		<variant>MOZ</variant>
+		<variant>Moçambique</variant>
+	</country>
+	<country name="Myanmar" abr="MMR">
+		<variant>MM</variant>
+		<variant>MMR</variant>
+	</country>
+	<country name="Namibia" abr="NAM" driveOnLeft="true">
+		<variant>NA</variant>
+		<variant>NAM</variant>
+	</country>
+	<country name="Nauru" abr="NRU" driveOnLeft="true">
+		<variant>NR</variant>
+		<variant>NRU</variant>
+		<variant>NAOERO</variant>
+	</country>
+	<country name="Nepal" abr="NPL" driveOnLeft="true">
+		<variant>NP</variant>
+		<variant>NPL</variant>
+		<variant>नेपाल</variant>
+	</country>
+	<country name="Nederland" abr="NLD" streetBeforeHousenumber="true" postalcodeBeforeCity="true">
+		<variant>NL</variant>
+		<variant>NLD</variant>
+		<variant>Netherlands</variant>
+		<variant>The Netherlands</variant>
+	</country>
+	<country name="New Caledonia" abr="NCL">
+		<variant>NC</variant>
+		<variant>NCL</variant>
+	</country>
+	<country name="New Zealand" abr="NZL" driveOnLeft="true">
+		<variant>NZ</variant>
+		<variant>NZL</variant>
+		<variant>AOTEAROA NEW ZEALAND</variant>
+	</country>
+	<country name="Nicaragua" abr="NIC">
+		<variant>NI</variant>
+		<variant>NIC</variant>
+	</country>
+	<country name="Niger" abr="NER">
+		<variant>NE</variant>
+		<variant>NER</variant>
+	</country>
+	<country name="Nigeria" abr="NGA">
+		<variant>NG</variant>
+		<variant>NGA</variant>
+	</country>
+	<country name="Niue" abr="NIU" driveOnLeft="true">
+		<variant>NU</variant>
+		<variant>NIU</variant>
+	</country>
+	<country name="Norfolk Island" abr="NFK" driveOnLeft="true">
+		<variant>NF</variant>
+		<variant>NFK</variant>
+	</country>
+	<country name="Northern Mariana Islands" abr="MNP">
+		<variant>MP</variant>
+		<variant>MNP</variant>
+	</country>
+	<country name="Norge" abr="NOR" streetBeforeHousenumber="true" postalcodeBeforeCity="true">
+		<variant>Norway</variant>
+		<variant>Noreg</variant>
+		<variant>NO</variant>
+		<variant>NOR</variant>
+		<variant>Norge/Noreg</variant>
+	</country>
+	<country name="Oman" abr="OMN" streetBeforeHousenumber="true">
+		<variant>OM</variant>
+		<variant>OMN</variant>
+		<variant>‏سلطنة عمان‎</variant>
+	</country>
+	<country name="Pakistan" abr="PAK" driveOnLeft="true">
+		<variant>PK</variant>
+		<variant>PAK</variant>
+		<variant>‏پاکستان‎</variant>
+	</country>
+	<country name="Palau" abr="PLW">
+		<variant>PW</variant>
+		<variant>PLW</variant>
+		<variant>BELAU</variant>
+	</country>
+	<country name="Palestinian Territory" abr="PSE">
+		<variant>PS</variant>
+		<variant>PSE</variant>
+		<variant>Palestinian National Authority</variant>
+	</country>
+	<country name="Panama" abr="PAN">
+		<variant>PA</variant>
+		<variant>PAN</variant>
+		<variant>Panamá</variant>
+	</country>
+	<country name="Papua New Guinea" abr="PNG" driveOnLeft="true">
+		<variant>PG</variant>
+		<variant>PNG</variant>
+		<variant>PAPUA NIUGINI</variant>
+	</country>
+	<country name="Paraguay" abr="PRY" streetBeforeHousenumber="true" postalcodeBeforeCity="true">
+		<variant>PY</variant>
+		<variant>PRY</variant>
+	</country>
+	<country name="Peru" abr="PER" streetBeforeHousenumber="true">
+		<variant>PE</variant>
+		<variant>PER</variant>
+	</country>
+	<country name="Philippines" abr="PHL">
+		<variant>PH</variant>
+		<variant>PHL</variant>
+	</country>
+	<country name="Pitcairn Islands" abr="PCN" driveOnLeft="true">
+		<variant>PN</variant>
+		<variant>PCN</variant>
+	</country>
+	<country name="Polska" abr="POL" streetBeforeHousenumber="true" postalcodeBeforeCity="true">
+		<variant>PL</variant>
+		<variant>POL</variant>
+		<variant>Poland</variant>
+	</country>
+	<country name="Portugal" abr="PRT" streetBeforeHousenumber="true" postalcodeBeforeCity="true">
+		<variant>PT</variant>
+		<variant>PRT</variant>
+		<variant>POR</variant>
+	</country>
+	<country name="Puerto Rico" abr="PRI">
+		<variant>PR</variant>
+		<variant>PRI</variant>
+	</country>
+	<country name="Qatar" abr="QAT">
+		<variant>QA</variant>
+		<variant>QAT</variant>
+		<variant>‏قطر‎</variant>
+	</country>
+	<country name="Réunion" abr="REU">
+		<variant>RE</variant>
+		<variant>REU</variant>
+	</country>
+	<country name="România" abr="ROU" streetBeforeHousenumber="true">
+		<variant>RO</variant>
+		<variant>ROU</variant>
+		<variant>Romania</variant>
+	</country>
+	<country name="Russian Federation" abr="RUS" streetBeforeHousenumber="true">
+		<variant>RU</variant>
+		<variant>RUS</variant>
+		<variant>Russia</variant>
+		<variant>Rossiâ</variant>
+		<variant>Rossijskaâ Federaciâ</variant>
+		<variant>Российская Федерация</variant>
+	</country>
+	<country name="Rwanda" abr="RWA">
+		<variant>RW</variant>
+		<variant>RWA</variant>
+	</country>
+	<country name="Saint Barthélemy" abr="BLM">
+		<variant>BL</variant>
+		<variant>BLM</variant>
+		<variant>Saint-Barthélémy</variant>
+	</country>
+	<country name="Saint Helena" abr="SHN" driveOnLeft="true">
+		<variant>Ascension</variant>
+		<variant>Tristan da Cunha</variant>
+		<variant>SH</variant>
+		<variant>SHN</variant>
+	</country>
+	<country name="Saint Kitts and Nevis" abr="KNA" driveOnLeft="true">
+		<variant>Saint Kitts</variant>
+		<variant>Nevis</variant>
+		<variant>KN</variant>
+		<variant>KNA</variant>
+	</country>
+	<country name="Saint Lucia" abr="LCA" driveOnLeft="true">
+		<variant>LC</variant>
+		<variant>LCA</variant>
+	</country>
+	<country name="Saint Martin" abr="MAF">
+		<variant>MF</variant>
+		<variant>MAF</variant>
+	</country>
+	<country name="Saint Pierre and Miquelon" abr="SPM">
+		<variant>Saint Pierre</variant>
+		<variant>Miquelon</variant>
+		<variant>PM</variant>
+		<variant>SPM</variant>
+	</country>
+	<country name="Saint Vincent and the Grenadines" abr="VCT" driveOnLeft="true">
+		<variant>Saint Vincent</variant>
+		<variant>Grenadines</variant>
+		<variant>VC</variant>
+		<variant>VCT</variant>
+	</country>
+	<country name="Samoa" abr="WSM" driveOnLeft="true">
+		<variant>WS</variant>
+		<variant>WSM</variant>
+	</country>
+	<country name="San Marino" abr="SMR">
+		<variant>SM</variant>
+		<variant>SMR</variant>
+	</country>
+	<country name="Sao Tome and Principe" abr="STP">
+		<variant>Sao Tome</variant>
+		<variant>Principe</variant>
+		<variant>ST</variant>
+		<variant>STP</variant>
+		<variant>São Tomé and Príncipe</variant>
+		<variant>São Tomé e Príncipe</variant>
+	</country>
+	<country name="Saudi Arabia" abr="SAU">
+		<variant>SA</variant>
+		<variant>SAU</variant>
+	</country>
+	<country name="Senegal" abr="SEN">
+		<variant>SN</variant>
+		<variant>SEN</variant>
+	</country>
+	<country name="Srbija" abr="SRB">
+		<variant>RS</variant>
+		<variant>SRB</variant>
+		<variant>Serbia</variant>
+		<variant>Republic of Serbia</variant>
+	</country>
+	<country name="Seychelles" abr="SYC" driveOnLeft="true">
+		<variant>SC</variant>
+		<variant>SYC</variant>
+		<variant>SESEL</variant>
+	</country>
+	<country name="Sierra Leone" abr="SLE">
+		<variant>SL</variant>
+		<variant>SLE</variant>
+	</country>
+	<country name="Singapore" abr="SGP" driveOnLeft="true">
+		<variant>SG</variant>
+		<variant>SGP</variant>
+		<variant>SINGAPURA</variant>
+	</country>
+	<country name="Sint Maarten" abr="SXM">
+		<variant>SX</variant>
+		<variant>SXM</variant>
+	</country>
+	<country name="Slovakia" abr="SVK" streetBeforeHousenumber="true" postalcodeBeforeCity="true">
+		<variant>SK</variant>
+		<variant>SVK</variant>
+		<variant>Slovensko</variant>
+	</country>
+	<country name="Slovenija" abr="SVN" streetBeforeHousenumber="true" postalcodeBeforeCity="true">
+		<variant>SI</variant>
+		<variant>SVN</variant>
+		<variant>Slovenia</variant>
+	</country>
+	<country name="Solomon Islands" abr="SLB" driveOnLeft="true">
+		<variant>SB</variant>
+		<variant>SLB</variant>
+	</country>
+	<country name="Somalia" abr="SOM">
+		<variant>SO</variant>
+		<variant>SOM</variant>
+		<variant>Soomaaliya</variant>
+	</country>
+	<country name="South Africa" abr="ZAF" driveOnLeft="true">
+		<variant>ZA</variant>
+		<variant>ZAF</variant>
+	</country>
+	<country name="South Georgia and the South Sandwich Islands" abr="SGS">
+		<variant>South Georgia</variant>
+		<variant>South Sandwich Islands</variant>
+		<variant>GS</variant>
+		<variant>SGS</variant>
+	</country>
+	<country name="España" abr="ESP" streetBeforeHousenumber="true" postalcodeBeforeCity="true">
+		<variant>Spain</variant>
+		<variant>ES</variant>
+		<variant>ESP</variant>
+	</country>
+	<country name="Sri Lanka" abr="LKA" driveOnLeft="true">
+		<variant>LK</variant>
+		<variant>LKA</variant>
+		<variant>ශ්‍රී ලංකා</variant>
+	</country>
+	<country name="South Sudan" abr="SSD">
+		<variant>SS</variant>
+		<variant>SSD</variant>
+		<variant>جمهورية السودان</variant>
+	</country>
+	<country name="Sudan" abr="SDN">
+		<variant>SD</variant>
+		<variant>SDN</variant>
+		<variant>جمهورية السودان</variant>
+	</country>
+	<country name="Suriname" abr="SUR" driveOnLeft="true">
+		<variant>SR</variant>
+		<variant>SUR</variant>
+	</country>
+	<country name="Svalbard and Jan Mayen" abr="SJM">
+		<variant>Svalbard</variant>
+		<variant>Jan Mayen</variant>
+		<variant>SJ</variant>
+		<variant>SJM</variant>
+	</country>
+	<country name="Kingdom of Eswatini" abr="SWZ" driveOnLeft="true">
+		<variant>SZ</variant>
+		<variant>SWZ</variant>
+		<variant>Swatini</variant>
+		<variant>Eswatini</variant>
+		<variant>Swaziland</variant>
+	</country>
+	<country name="Sverige" abr="SWE" streetBeforeHousenumber="true" postalcodeBeforeCity="true">
+		<variant>Sweden</variant>
+		<variant>SE</variant>
+		<variant>SWE</variant>
+	</country>
+	<country name="Schweiz" abr="CHE" streetBeforeHousenumber="true" postalcodeBeforeCity="true">
+		<variant>Switzerland</variant>
+		<variant>Suisse</variant>
+		<variant>CH</variant>
+		<variant>CHE</variant>
+	</country>
+	<country name="Syria" abr="SYR">
+		<variant>Syrian Arab Republic</variant>
+		<variant>SY</variant>
+		<variant>SYR</variant>
+		<variant>الجمهورية العربية السورية</variant>
+	</country>
+	<country name="Taiwan" abr="TWN">
+		<variant>TW</variant>
+		<variant>TWN</variant>
+		<variant>Republic of China</variant>
+	</country>
+	<country name="Tajikistan" abr="TJK">
+		<variant>TJ</variant>
+		<variant>TJK</variant>
+		<variant>Тоҷикистон</variant>
+	</country>
+	<country name="Tanzania" abr="TZA" driveOnLeft="true">
+		<variant>United Republic of Tanzania</variant>
+		<variant>TZ</variant>
+		<variant>TZA</variant>
+	</country>
+	<country name="Thailand" abr="THA" driveOnLeft="true">
+		<variant>TH</variant>
+		<variant>THA</variant>
+		<variant>ราชอาณาจักรไทย</variant>
+	</country>
+	<country name="Timor-Leste" abr="TLS" driveOnLeft="true">
+		<variant>TL</variant>
+		<variant>TLS</variant>
+		<variant>Timór Loro Sa'e</variant>
+		<variant>East Timor</variant>
+	</country>
+	<country name="Togo" abr="TGO">
+		<variant>TG</variant>
+		<variant>TGO</variant>
+		<variant>République Togolaise</variant>
+	</country>
+	<country name="Tokelau" abr="TKL" driveOnLeft="true">
+		<variant>TK</variant>
+		<variant>TKL</variant>
+	</country>
+	<country name="Tonga" abr="TON" driveOnLeft="true">
+		<variant>TO</variant>
+		<variant>TON</variant>
+	</country>
+	<country name="Trinidad and Tobago" abr="TTO" driveOnLeft="true">
+		<variant>Trinidad</variant>
+		<variant>Tobago</variant>
+		<variant>TT</variant>
+		<variant>TTO</variant>
+	</country>
+	<country name="Tunisia" abr="TUN">
+		<variant>TN</variant>
+		<variant>TUN</variant>
+	</country>
+	<country name="Turkey" abr="TUR" streetBeforeHousenumber="true" postalcodeBeforeCity="true">
+		<variant>TR</variant>
+		<variant>TUR</variant>
+		<variant>Türkiye</variant>
+	</country>
+	<country name="Turkmenistan" abr="TKM">
+		<variant>TM</variant>
+		<variant>TKM</variant>
+		<variant>Türkmenistan</variant>
+	</country>
+	<country name="Turks and Caicos Islands" abr="TCA" driveOnLeft="true">
+		<variant>TC</variant>
+		<variant>TCA</variant>
+	</country>
+	<country name="Tuvalu" abr="TUV" driveOnLeft="true">
+		<variant>TV</variant>
+		<variant>TUV</variant>
+	</country>
+	<country name="Uganda" abr="UGA" driveOnLeft="true">
+		<variant>UG</variant>
+		<variant>UGA</variant>
+	</country>
+	<country name="Ukrayina" abr="UKR" streetBeforeHousenumber="true">
+		<variant>UA</variant>
+		<variant>UKR</variant>
+		<variant>Ukraine</variant>
+		<variant>Україна</variant>
+	</country>
+	<country name="United Arab Emirates" abr="ARE">
+		<variant>AE</variant>
+		<variant>ARE</variant>
+		<variant>الإمارات العربيّة المتّحدة</variant>
+	</country>
+	<country name="United Kingdom" abr="GBR" driveOnLeft="true">
+		<variant>England</variant>
+		<variant>Scotland</variant>
+		<variant>Wales</variant>
+		<variant>Northern Ireland</variant>
+		<variant>Great Britain</variant>
+		<variant>Great Britian</variant>
+		<variant>Gibraltar / United Kingdom</variant>
+		<variant>UK</variant>
+		<variant>GB</variant>
+		<variant>GBR</variant>
+	</country>
+	<country name="United States" abr="USA">
+		<variant>US</variant>
+		<variant>USA</variant>
+		<variant>United States of America</variant>
+	</country>
+	<country name="United States Minor Outlying Islands" abr="UMI">
+		<variant>UM</variant>
+		<variant>UMI</variant>
+	</country>
+	<country name="Uruguay" abr="URY" streetBeforeHousenumber="true" postalcodeBeforeCity="true">
+		<variant>UY</variant>
+		<variant>URY</variant>
+	</country>
+	<country name="Uzbekistan" abr="UZB">
+		<variant>UZ</variant>
+		<variant>UZB</variant>
+		<variant>Oʻzbekiston</variant>
+	</country>
+	<country name="Vanuatu" abr="VUT">
+		<variant>VU</variant>
+		<variant>VUT</variant>
+	</country>
+	<country name="Venezuela" abr="VEN">
+		<variant>Bolivarian Republic of Venezuela</variant>
+		<variant>VE</variant>
+		<variant>VEN</variant>
+	</country>
+	<country name="Vietnam" abr="VNM">
+		<variant>VN</variant>
+		<variant>VNM</variant>
+		<variant>Việt Nam</variant>
+	</country>
+	<country name="Virgin Islands, British" abr="VGB" driveOnLeft="true">
+		<variant>VG</variant>
+		<variant>VGB</variant>
+		<variant>British Virgin Islands</variant>
+	</country>
+	<country name="Virgin Islands, U.S." abr="VIR" driveOnLeft="true">
+		<variant>VI</variant>
+		<variant>VIR</variant>
+	</country>
+	<country name="Wallis and Futuna" abr="WLF">
+		<variant>WF</variant>
+		<variant>WLF</variant>
+	</country>
+	<country name="Western Sahara" abr="ESH">
+		<variant>EH</variant>
+		<variant>ESH</variant>
+		<variant>Sahrawi Arab Democratic Republic</variant>
+		<variant>الجمهورية العربية الصحراوية الديمقراطية</variant>
+	</country>
+	<country name="Yemen" abr="YEM">
+		<variant>YE</variant>
+		<variant>YEM</variant>
+		<variant>‏اليمن‎</variant>
+	</country>
+	<country name="Zambia" abr="ZMB" driveOnLeft="true">
+		<variant>ZM</variant>
+		<variant>ZMB</variant>
+	</country>
+	<country name="Zimbabwe" abr="ZWE" driveOnLeft="true">
+		<variant>ZW</variant>
+		<variant>ZWE</variant>
+	</country>
+	<continent name="Europe">
+	</continent>
+	<continent name="Africa">
+	</continent>
+	<continent name="Asia">
+	</continent>
+	<continent name="North America">
+	</continent>
+	<continent name="South America">
+	</continent>
+	<continent name="Oceania">
+	</continent>
+</locator>

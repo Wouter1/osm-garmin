@@ -8,3 +8,5 @@ dist
 ivy-distrib/
 lib/
 mkgmap.log.*
+/target/
+/.project

@@ -1,9 +1,0 @@
-type=route
-& (route=bus|route=ferry|route=subway|route=train|route=tram|
-   route=road|
-   route=bicycle|route=foot|route=hiking|route=ski)
-{
-  add ref='${name}'; # if ref is missing, use name
-  set ref='${route} ${network} ${ref}' | '${route} ${ref}' | '${route} ${network}' | '${route}';
-  apply { set mkgmap:route='$(mkgmap:route),${ref}' | '${ref}' }
-}
