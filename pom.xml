@@ -45,15 +45,15 @@
 			<version>6.5.16</version>
 		</dependency>
 
-		<!-- This csomehow contains org/w3c/dom/ls/DocumentLS and related files.
-		Stupid workaround, maybe I can find something better? -->
+		<!-- This csomehow contains org/w3c/dom/ls/DocumentLS and related files. 
+			Stupid workaround, maybe I can find something better? -->
 		<dependency>
 			<groupId>xerces</groupId>
 			<artifactId>xercesImpl</artifactId>
 			<version>2.11.0</version>
 		</dependency>
-		
-		
+
+
 
 		<dependency>
 			<groupId>innig</groupId>
@@ -146,4 +146,34 @@
 
 
 	</dependencies>
+
+
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<configuration>
+					<archive>
+						<manifest>
+							<mainClass>fully.qualified.MainClass</mainClass>
+						</manifest>
+					</archive>
+					<descriptorRefs>
+						<descriptorRef>jar-with-dependencies</descriptorRef>
+					</descriptorRefs>
+				</configuration>
+				<executions>
+					<execution>
+						<id>make-assembly</id> <!-- this is used for inheritance merges -->
+						<phase>package</phase> <!-- bind to the packaging phase -->
+						<goals>
+							<goal>single</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+
+
 </project>
