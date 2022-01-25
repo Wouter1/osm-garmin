@@ -3,11 +3,12 @@ MkgMap
 
 This is a modified mkgmap, to get it building with maven.
 
-For the original, manuals other versions etc please refer to 	https://svn.mkgmap.org.uk/mkgmap/mkgmap
+For the original, manuals other versions etc please refer to 	
+https://svn.mkgmap.org.uk/mkgmap/mkgmap
 
 There is a copy on https://github.com/openstreetmap/mkgmap
 
 Building
 ======
-You need to install OSM-splitter before this compiles. Check https://github.com/Wouter1/OSM-splitter
+You need to install OSM-splitter version 412 before this compiles. Check https://github.com/Wouter1/OSM-splitter
 After that you can use the standard ```mvn clean install``` to build mkgmap (including running all tests)
