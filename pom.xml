@@ -80,7 +80,8 @@
 		<dependency>
 			<groupId>jdom</groupId>
 			<artifactId>jdom</artifactId>
-			<version>b9</version>
+			<version>1.0</version>
+			<!-- b9 ?? -->
 		</dependency>
 
 
@@ -100,6 +101,25 @@
 			<version>2.3.1</version>
 		</dependency>
 
+		<dependency>
+			<groupId>org.geotools</groupId>
+			<artifactId>gt-api</artifactId>
+			<version>2.7.5</version>
+			<exclusions>
+				<exclusion>
+					<groupId>xerces</groupId>
+					<artifactId>xercesImpl</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/javax.media/jai_core -->
+		<dependency>
+			<groupId>javax.media</groupId>
+			<artifactId>jai_core</artifactId>
+			<version>1.1.3</version>
+		</dependency>
+
 
 		<dependency>
 			<groupId>uk.me.parabola</groupId>
@@ -107,16 +127,17 @@
 			<version>412</version>
 		</dependency>
 
+
 		<!-- https://mvnrepository.com/artifact/org.geotools/gt-cql -->
 		<dependency>
 			<groupId>org.geotools</groupId>
 			<artifactId>gt-cql</artifactId>
-			<version>2.7.5</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.geotools</groupId>
-			<artifactId>gt-api</artifactId>
+			<exclusions>
+				<exclusion>  <!-- declare the exclusion here -->
+					<groupId>sample.ProjectB</groupId>
+					<artifactId>Project-B</artifactId>
+				</exclusion>
+			</exclusions>
 			<version>2.7.5</version>
 		</dependency>
 
@@ -126,6 +147,8 @@
 			<version>2.7.5</version>
 		</dependency>
 
+		<!-- <dependency> <groupId>org.geotools</groupId> <artifactId>geotools</artifactId> 
+			<version>2.7.5</version> </dependency> does not exist????? -->
 
 
 		<!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest-core -->
@@ -140,7 +163,7 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>4.11</version>
+			<version>4.7</version>
 			<scope>test</scope>
 		</dependency>
 
@@ -172,8 +195,28 @@
 					</execution>
 				</executions>
 			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-enforcer-plugin</artifactId>
+				<version>3.0.0-M2</version>
+				<executions>
+					<execution>
+						<id>enforce</id>
+						<configuration>
+							<rules>
+								<dependencyConvergence />
+							</rules>
+						</configuration>
+						<goals>
+							<goal>enforce</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
+
 		</plugins>
 	</build>
-
 
 </project>

@@ -332,7 +332,7 @@ public class ShapeSplitterTest {
 			for (inx = 0; inx < resPoints.size(); ++inx)
 			    if (resPoints.get(inx).equals(expFst))
 				break;
-			assertNotEquals("find first point failed", resPoints.size(), inx);
+			assertNotSame("find first point failed", resPoints.size(), inx);
 			if (inx > 0)
 			    Collections.rotate(resPoints, -inx);
 			// now step through. Maybe need to allow duplicate/extra in result set
