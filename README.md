@@ -6,7 +6,7 @@ This is a modified mkgmap, to get it building with maven.
 For the original, manuals other versions etc please refer to 	
 https://svn.mkgmap.org.uk/mkgmap/mkgmap. There is a github copy on https://github.com/openstreetmap/mkgmap
 
-Documentation is on https://www.mkgmap.org.uk/doc/index.html
+Documentation is in the doc folder and also online https://www.mkgmap.org.uk/doc/options. General info on https://www.mkgmap.org.uk/doc/index.html. 
 
 
 A outdated defunct walkthrough on how to build a map is on 
