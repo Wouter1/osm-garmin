@@ -1,8 +1,0 @@
-#!/bin/bash
-
-REPOS="$1"
-REV="$2"
-
-PROJECT=${REPOS##*/}
-
-redis-cli lpush "svn:actions" "commit:$PROJECT:$REV"
