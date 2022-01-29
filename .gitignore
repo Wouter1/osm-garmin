@@ -1,13 +1,2 @@
-*.img
-*.tdb
-*.typ
-*~
-bin
-build/classes
-dist
-ivy-distrib/
-lib/
-mkgmap.log.*
-/target/
-/.project
 /.settings/
+/.project
