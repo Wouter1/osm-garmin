@@ -26,7 +26,7 @@ Substitute opentopomap with the style of your choice.
 * download a YOURCOUNTRY pbf file from https://download.geofabrik.de to the working directory (root of osm-garmin)
 * mkdir work
 * java -jar splitter/target/splitter-412-jar-with-dependencies.jar  --output-dir=work YOURCOUNTRY.osm.pbf 
-* java -jar mkgmap/target/mkgmap-4855-jar-with-dependencies.jar --family-id=35 --output-dir=work stylefiles/opentopomap/style/typ/opentopomap.tx
+* java -jar mkgmap/target/mkgmap-4855-jar-with-dependencies.jar --family-id=35 --output-dir=work stylefiles/opentopomap/style/typ/opentopomap.txt
 * java -jar mkgmap/target/mkgmap-4855-jar-with-dependencies.jar --output-dir=work -c stylefiles/opentopomap/opentopomap_options  --style-file=stylefiles/opentopomap/style/opentopomap --generate-sea=polygon  work/*.pbf work/opentopomap.typ
 
 Now a gmapsupp.img should be in your work dir. 
