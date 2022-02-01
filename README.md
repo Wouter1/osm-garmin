@@ -20,13 +20,20 @@ It is assumed you have java8 sdk, maven, git installed already.
 This walkthrough assumes you want to use the opentopomap style.
 Substitute opentopomap with the style of your choice.
 
-* Download this project
-* cd osm-garmin
-* mvn clean package
-* download a YOURCOUNTRY pbf file from https://download.geofabrik.de to the working directory (root of osm-garmin)
-* mkdir work
-* java -jar splitter/target/splitter-412-jar-with-dependencies.jar  --output-dir=work YOURCOUNTRY.osm.pbf 
-* java -jar mkgmap/target/mkgmap-4855-jar-with-dependencies.jar --family-id=35 --output-dir=work stylefiles/opentopomap/style/typ/opentopomap.txt
-* java -jar mkgmap/target/mkgmap-4855-jar-with-dependencies.jar --output-dir=work -c stylefiles/opentopomap/opentopomap_options  --style-file=stylefiles/opentopomap/style/opentopomap --generate-sea=polygon  work/*.pbf work/opentopomap.typ
+1 Download this project
+2 cd osm-garmin
+3 mvn clean package
+4 download a YOURCOUNTRY pbf file from https://download.geofabrik.de to the working directory (root of osm-garmin)
+5 mkdir work
+6 java -jar splitter/target/splitter-412-jar-with-dependencies.jar  --output-dir=work YOURCOUNTRY.osm.pbf 
+7 java -jar mkgmap/target/mkgmap-4855-jar-with-dependencies.jar --family-id=35 --output-dir=work stylefiles/opentopomap/style/typ/opentopomap.txt work/*.pbf
+8 java -jar mkgmap/target/mkgmap-4855-jar-with-dependencies.jar --output-dir=work -c stylefiles/opentopomap/opentopomap_options  --style-file=stylefiles/opentopomap/style/opentopomap work/*.pbf work/opentopomap.typ work/*.pbf
+
+In  command 8, the map will be built without sea. To incorporate sea in your final map,
+you need to download the latest sea information as well and replace command 8 :
+8  go to https://www.mkgmap.org.uk/download/mkgmap.html and download the latest-sea.zip to your current directory
+10 java -jar mkgmap/target/mkgmap-4855-jar-with-dependencies.jar --output-dir=work -c stylefiles/opentopomap/opentopomap_options  --style-file=stylefiles/opentopomap/style/opentopomap --precomp-sea=sea-latest.zip  work/*.pbf work/opentopomap.typ work/*.pbf
+
+ 
 
 Now a gmapsupp.img should be in your work dir. 
