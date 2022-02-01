@@ -25,15 +25,15 @@ Substitute opentopomap with the style of your choice.
 3. mvn clean package
 4. download a YOURCOUNTRY pbf file from https://download.geofabrik.de to the working directory (root of osm-garmin)
 5. mkdir work
-6. java -jar splitter/target/splitter-412-jar-with-dependencies.jar  --output-dir=work YOURCOUNTRY.osm.pbf 
-7. java -jar mkgmap/target/mkgmap-4855-jar-with-dependencies.jar --family-id=35 --output-dir=work stylefiles/opentopomap/style/typ/opentopomap.txt work/*.pbf
-8. java -jar mkgmap/target/mkgmap-4855-jar-with-dependencies.jar --output-dir=work -c stylefiles/opentopomap/opentopomap_options  --style-file=stylefiles/opentopomap/style/opentopomap work/*.pbf work/opentopomap.typ work/*.pbf
+6. ``java -jar splitter/target/splitter-412-jar-with-dependencies.jar  --output-dir=work YOURCOUNTRY.osm.pbf``
+7. ``java -jar mkgmap/target/mkgmap-4855-jar-with-dependencies.jar --family-id=35 --output-dir=work stylefiles/opentopomap/style/typ/opentopomap.txt work/*.pbf``
+8. ``java -jar mkgmap/target/mkgmap-4855-jar-with-dependencies.jar --output-dir=work -c stylefiles/opentopomap/opentopomap_options  --style-file=stylefiles/opentopomap/style/opentopomap work/*.pbf work/opentopomap.typ``
 
 In  command 8, the map will be built without sea. To incorporate sea in your final map if needed,
 you need to download the latest sea information as well and replace command 8 :
 
 8.  go to https://www.mkgmap.org.uk/download/mkgmap.html and download the latest-sea.zip to your current directory
-9. java -jar mkgmap/target/mkgmap-4855-jar-with-dependencies.jar --output-dir=work -c stylefiles/opentopomap/opentopomap_options  --style-file=stylefiles/opentopomap/style/opentopomap --precomp-sea=sea-latest.zip  work/*.pbf work/opentopomap.typ work/*.pbf
+9.  ``java -jar mkgmap/target/mkgmap-4855-jar-with-dependencies.jar --output-dir=work -c stylefiles/opentopomap/opentopomap_options  --style-file=stylefiles/opentopomap/style/opentopomap --precomp-sea=sea-latest.zip  work/*.pbf work/opentopomap.typ``
 
  
 
