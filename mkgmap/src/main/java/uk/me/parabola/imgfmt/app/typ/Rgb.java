@@ -23,24 +23,28 @@ public class Rgb {
 	/**
 	 * Initialise from a string.
 	 *
-	 * The format is #RRGGBB and without the '#'. You can also append
-	 * an alpha value. FF for fully opaque, and 00 for fully transparent.
-	 * The typ file only deals with fully transparent.
+	 * The format is #RRGGBB and without the '#'. You can also append an alpha
+	 * value. FF for fully opaque, and 00 for fully transparent. The typ file only
+	 * deals with fully transparent.
 	 *
 	 * @param in The string form of the color.
 	 */
 	public Rgb(String in) {
-		String colour = in;
-		if (colour.startsWith("#"))
-			colour = colour.substring(1);
+		try {
+			String colour = in;
+			if (colour.startsWith("#"))
+				colour = colour.substring(1);
 
-		r = Integer.parseInt(colour.substring(0, 2), 16);
-		g = Integer.parseInt(colour.substring(2, 4), 16);
-		b = Integer.parseInt(colour.substring(4, 6), 16);
-		if (colour.length() > 6)
-			a = Integer.parseInt(colour.substring(6, 8), 16);
-		else
-			a = 0xff;
+			r = Integer.parseInt(colour.substring(0, 2), 16);
+			g = Integer.parseInt(colour.substring(2, 4), 16);
+			b = Integer.parseInt(colour.substring(4, 6), 16);
+			if (colour.length() > 6)
+				a = Integer.parseInt(colour.substring(6, 8), 16);
+			else
+				a = 0xff;
+		} catch (Exception e) {
+			throw new IllegalArgumentException("Failed to parse " + in, e);
+		}
 	}
 
 	/**
