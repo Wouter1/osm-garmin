@@ -2080,8 +2080,8 @@ Xpm="0 0 2 0"
 "b c #000000"
 [end]
 
-[_line]
-Type=0x09
+[_line] ; motorway
+Type=0x09 
 ExtendedLabels=Y
 FontStyle=SmallFont
 LineWidth=1
@@ -2111,7 +2111,7 @@ Xpm="0 0 2 0"
 "b c #000000"
 [end]
 
-[_line]
+[_line] ; roundabout, motorway
 Type=0x0c
 ExtendedLabels=Y
 FontStyle=SmallFont
@@ -2155,11 +2155,11 @@ String=0x04,rail
 ExtendedLabels=Y
 FontStyle=SmallFont
 Xpm="32 3 2 1"
-". c #000000"
-"# c #ffffff"
-"################################"
+". c None"
+"# c #000000"
 "#..#..#..#..#..#..#..#..#..#..#."
 "################################"
+"#..#..#..#..#..#..#..#..#..#..#."
 [end]
 
 [_line]
@@ -2170,8 +2170,8 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 Xpm="32 1 2 1"
 "  c #555555"
-"# c #333333"
-"####    ####    ####    ####    "
+"# c #ffffff"
+"##  ##  ##  ##  ##  ##  ##  ##  "
 [end]
 
 [_line]
@@ -2189,7 +2189,7 @@ String=0x02,Fähre
 String=0x04,ferry
 Xpm="32 1 2 1"
 "  c none"
-"# c #407070"
+"# c #000000"
 "########        ########        "
 [end]
 
@@ -2200,8 +2200,8 @@ String=0x04,border
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 Xpm="32 1 2 1"
-"  c #000000"
-"# c #ff80ff"
+"  c None"
+"# c #aa8888"
 "##############        ##        "
 [end]
 
@@ -2212,8 +2212,8 @@ String=0x04,border
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 Xpm="32 1 2 1"
-"  c #000000"
-"# c #888888"
+"  c None"
+"# c #aa8888"
 "##############        ##        "
 [end]
 
@@ -2224,8 +2224,8 @@ String=0x04,border
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 Xpm="32 2 2 1"
-"  c #000000"
-"# c #888888"
+"  c None"
+"# c #aa8888"
 "##############        ##        "
 "##############        ##        "
 [end]
@@ -2293,7 +2293,7 @@ Type=0x2e
 String=0x02,Bahntunnel
 String=0x04,railway tunnel
 Xpm="32 2 2 1"
-"  c #000000"
+"  c None"
 "# c #505050"
 "####    ####    ####    ####    "
 "####    ####    ####    ####    "
@@ -2320,9 +2320,9 @@ Xpm="32 5 2 1"
 "  c none"
 "# c #000000"
 "       #                #       "
-"       #                #       "
 "################################"
 "       #                #       "
+"################################"
 "       #                #       "
 [end]
 
@@ -2332,7 +2332,7 @@ String=0x02,Waldrand
 String=0x04,edge of the forest
 Xpm="32 1 2 1"
 "  c none"
-"# c #4eb539"
+"# c #202020"
 "# # # # # # # # # # # # # # # # "
 [end]
 

@@ -32,7 +32,7 @@ In  command 8, the map will be built without sea. To incorporate sea in your fin
 you need to download the latest sea information as well and replace command 8 :
 
 8.  go to https://www.mkgmap.org.uk/download/mkgmap.html and download the latest-sea.zip to your current directory
-9.  ``java -jar mkgmap/target/mkgmap-4855-jar-with-dependencies.jar --output-dir=work -c stylefiles/opentopomap/opentopomap_options  --style-file=stylefiles/opentopomap/style/opentopomap --precomp-sea=sea-latest.zip  work/*.pbf work/opentopomap.typ``
+9.  ``java -jar mkgmap/target/mkgmap-4855-jar-with-dependencies.jar --output-dir=work -c stylefiles/grey/grey_options --style-file=stylefiles/grey/style/grey/ --precomp-sea=sea-latest.zip work/*.pbf stylefiles/grey/style/typ/grey.typ`
 
  
 
