@@ -1994,7 +1994,7 @@ String=0x04,motorway
 ExtendedLabels=Y
 FontStyle=SmallFont
 LineWidth=2
-BorderWidth=2
+BorderWidth=1
 Xpm="0 0 2 0"
 "a c #994422"
 "b c #000000"
@@ -2031,7 +2031,7 @@ Type=0x04
 ExtendedLabels=Y
 FontStyle=SmallFont
 LineWidth=2
-BorderWidth=1
+;BorderWidth=1
 Xpm="0 0 2 0"
 "a c #994422"
 "b c #000000"
@@ -2042,39 +2042,39 @@ Type=0x05
 ExtendedLabels=Y
 FontStyle=SmallFont
 LineWidth=2
-BorderWidth=1
+;BorderWidth=1
 Xpm="0 0 2 0"
 "a c #ffffff"
 "b c #000000"
 [end]
 
-[_line]
+[_line] ; main road
 Type=0x06
 ExtendedLabels=Y
 FontStyle=SmallFont
 LineWidth=1
-BorderWidth=1
+;BorderWidth=1
 Xpm="0 0 2 0"
 "a c #ffffff"
 "b c #000000"
 [end]
 
-[_line]
+[_line] ; good road, also cycling
 Type=0x07
 String=2,Weg
 ExtendedLabels=Y
 FontStyle=SmallFont
 LineWidth=2
 Xpm="0 0 1 0"
-"a c #404040"
+"a c #ccddcc"
 [end]
 
-[_line]
+[_line] ; bigger road
 Type=0x08
 ExtendedLabels=Y
 FontStyle=SmallFont
 LineWidth=1
-BorderWidth=1
+;BorderWidth=1
 Xpm="0 0 2 0"
 "a c #fdfd4f"
 "b c #000000"
@@ -2085,22 +2085,22 @@ Type=0x09
 ExtendedLabels=Y
 FontStyle=SmallFont
 LineWidth=1
-BorderWidth=1
+;BorderWidth=1
 Xpm="0 0 2 0"
 "a c #994422"
 "b c #000000"
 [end]
 
-[_line]
+[_line] ; cycleway, zoomed out a bit
 Type=0x0a
 ExtendedLabels=Y
 FontStyle=SmallFont
 LineWidth=1
 Xpm="0 0 1 0"
-"a c #444444"
+"a c #aaddaa"
 [end]
 
-[_line]
+[_line] ; main highway
 Type=0x0b
 ExtendedLabels=Y
 FontStyle=SmallFont
@@ -2116,7 +2116,7 @@ Type=0x0c
 ExtendedLabels=Y
 FontStyle=SmallFont
 LineWidth=2
-BorderWidth=1
+;BorderWidth=1
 Xpm="0 0 2 0"
 "a c #ffffff"
 "b c #000000"
@@ -2129,7 +2129,7 @@ String=0x04,pedestrian zone
 ExtendedLabels=Y
 FontStyle=SmallFont
 LineWidth=1
-BorderWidth=1
+;BorderWidth=1
 Xpm="0 0 2 0"
 "a c #a0a0a0"
 "b c #000000"
@@ -2169,7 +2169,7 @@ String=0x04,footway
 ExtendedLabels=Y
 FontStyle=SmallFont
 Xpm="32 1 2 1"
-"  c none"
+"  c #555555"
 "# c #333333"
 "####    ####    ####    ####    "
 [end]
@@ -2213,7 +2213,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 Xpm="32 1 2 1"
 "  c #000000"
-"# c #ff80ff"
+"# c #888888"
 "##############        ##        "
 [end]
 
@@ -2225,7 +2225,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 Xpm="32 2 2 1"
 "  c #000000"
-"# c #ff80ff"
+"# c #888888"
 "##############        ##        "
 "##############        ##        "
 [end]
@@ -2391,7 +2391,7 @@ String=0x02,built-up area
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 Xpm="0 0 1 0"
-"a c #907070"
+"a c #707070"
 [end]
 
 [_polygon]
@@ -2399,7 +2399,7 @@ Type=0x13
 String=0x02,Gebäude
 String=0x04,building
 Xpm="0 0 1 0"
-"a c #907070"
+"a c #907000"
 [end]
 
 [_polygon]
@@ -2633,10 +2633,10 @@ Xpm="0 0 1 0"
 "a c #5050aa"
 [end]
 
-[_polygon]
+[_polygon] ; wetland 
 Type=0x4b
 Xpm="0 0 1 0"
-"a c #886644"
+"a c #508080"
 [end]
 
 [_polygon]
