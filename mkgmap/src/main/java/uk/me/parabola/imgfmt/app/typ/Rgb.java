@@ -43,7 +43,7 @@ public class Rgb {
 			else
 				a = 0xff;
 		} catch (Exception e) {
-			throw new IllegalArgumentException("Failed to parse " + in, e);
+			throw new IllegalArgumentException("Failed to parse color " + in, e);
 		}
 	}
 

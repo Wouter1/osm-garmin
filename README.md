@@ -13,7 +13,6 @@ See the doc directories, readme and licence files in the modules for more detail
 
 Sample Walkthrough
 ===============
-NOTICE this is not yet tested
 
 This example walkthrough shows how to compile an OSM map of your choice.
 It is assumed you have java8 sdk, maven, git installed already.
@@ -26,8 +25,8 @@ Substitute opentopomap with the style of your choice.
 4. download a YOURCOUNTRY pbf file from https://download.geofabrik.de to the working directory (root of osm-garmin)
 5. mkdir work
 6. ``java -jar splitter/target/splitter-412-jar-with-dependencies.jar  --output-dir=work YOURCOUNTRY.osm.pbf``
-7. ``java -jar mkgmap/target/mkgmap-4855-jar-with-dependencies.jar --family-id=35 --output-dir=work stylefiles/opentopomap/style/typ/opentopomap.txt work/*.pbf``
-8. ``java -jar mkgmap/target/mkgmap-4855-jar-with-dependencies.jar --output-dir=work -c stylefiles/opentopomap/opentopomap_options  --style-file=stylefiles/opentopomap/style/opentopomap work/*.pbf work/opentopomap.typ``
+7. ``java -jar mkgmap/target/mkgmap-4855-jar-with-dependencies.jar --family-id=35 --output-dir=work stylefiles/grey/style/typ/grey.txt work/*.pbf``
+8. ``java -jar mkgmap/target/mkgmap-4855-jar-with-dependencies.jar --output-dir=work -c stylefiles/grey/grey_options --style-file=stylefiles/grey/style/grey work/*.pbf stylefiles/grey/style/typ/grey.typ``
 
 In  command 8, the map will be built without sea. To incorporate sea in your final map if needed,
 you need to download the latest sea information as well and replace command 8 :
