@@ -156,7 +156,7 @@ highway=residential | (highway=pedestrian & area!=yes) | highway=living_street [
 highway=pedestrian & area!=yes [0x0d road_class=0 road_speed=0 resolution 22]
 highway=living_street [0x06 road_class=0 road_speed=1 resolution 22]
 highway=residential [0x06 road_class=0 road_speed=2 resolution 22]
-highway=bridleway [0x07 road_class=0 road_speed=0 resolution 23]
+highway=bridleway [0x08 road_class=0 road_speed=0 resolution 23]
 highway=byway [0x16 road_class=0 road_speed=0 resolution 23]
 
 highway=service & service=parking_aisle

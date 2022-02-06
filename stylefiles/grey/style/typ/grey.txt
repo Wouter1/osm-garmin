@@ -1996,33 +1996,33 @@ FontStyle=SmallFont
 LineWidth=2
 BorderWidth=1
 Xpm="0 0 2 0"
-"a c #553333"
+"a c #ffffff"
 "b c #000000"
 [end]
 
-[_line]
+[_line] ; snelweg 
 Type=0x02
 String=0x02,Schnellstraße
 String=0x04,trunk
 ExtendedLabels=Y
 FontStyle=SmallFont
-LineWidth=3
-BorderWidth=1
+LineWidth=2
+;BorderWidth=1
 Xpm="0 0 2 0"
-"a c #553333"
+"a c #000000"
 "b c #000000"
 [end]
 
-[_line]
+[_line] ; 60-90km road
 Type=0x03
 String=0x02,Bundesstraße
 String=0x04,primary street
 ExtendedLabels=Y
 FontStyle=SmallFont
 LineWidth=2
-BorderWidth=1
+;BorderWidth=1
 Xpm="0 0 2 0"
-"a c #553333"
+"a c #000000"
 "b c #000000"
 [end]
 
@@ -2037,8 +2037,8 @@ Xpm="0 0 2 0"
 "b c #000000"
 [end]
 
-[_line]
-Type=0x05
+[_line] ; 50-80 road at zoom in
+Type=0x05 
 ExtendedLabels=Y
 FontStyle=SmallFont
 LineWidth=2
@@ -2048,36 +2048,38 @@ Xpm="0 0 2 0"
 "b c #000000"
 [end]
 
-[_line] ; main road
+[_line] ; main 50km-60km road at zoomed-in level but also slow residential roads
 Type=0x06
 ExtendedLabels=Y
 FontStyle=SmallFont
 LineWidth=2
 ;BorderWidth=1
 Xpm="0 0 2 0"
-"a c #000000"
+"a c #444444"
 "b c #000000"
 [end]
 
-[_line] ; good road, also cycling
+[_line] ; cycleway, bad road, slow speed, bridleway etc...
 Type=0x07
 String=2,Weg
 ExtendedLabels=Y
 FontStyle=SmallFont
-LineWidth=2
-Xpm="0 0 1 0"
-"a c #000000"
+LineWidth=1
+Xpm="0 0 2 0"
+"a c #444444"
+"b c #000000"
 [end]
 
-[_line] ; bigger road
+[_line] ; secondary road very slow speed
 Type=0x08
 ExtendedLabels=Y
 FontStyle=SmallFont
 LineWidth=2
 ;BorderWidth=1
-Xpm="0 0 2 0"
-"a c #000000"
-"b c #000000"
+Xpm="32 1 2 1"
+"  c none"
+"# c #444444"
+"##  ##  ##  ##  ##  ##  ##  ##  "
 [end]
 
 [_line] ; motorway, zoomed out
@@ -2169,9 +2171,9 @@ String=0x04,footway
 ExtendedLabels=Y
 FontStyle=SmallFont
 Xpm="32 1 2 1"
-"  c #333333"
-"# c #ffffff"
-"##  ##  ##  ##  ##  ##  ##  ##  "
+"  c None"
+"# c #000000"
+"#  #  #  #  #  #  #  #  #  #  # "
 [end]
 
 [_line]
@@ -2332,7 +2334,7 @@ String=0x02,Waldrand
 String=0x04,edge of the forest
 Xpm="32 1 2 1"
 "  c none"
-"# c #202020"
+"# c #ddffdd"
 "# # # # # # # # # # # # # # # # "
 [end]
 
