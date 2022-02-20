@@ -16,8 +16,8 @@ Sample Walkthrough
 
 This example walkthrough shows how to compile an OSM map of your choice.
 It is assumed you have java8 sdk, maven, git installed already.
-This walkthrough assumes you want to use the opentopomap style.
-Substitute opentopomap with the style of your choice.
+This walkthrough assumes you want to use the "grey" style.
+Substitute "grey" with the style of your choice.
 
 1. Download this project
 2. cd osm-garmin
