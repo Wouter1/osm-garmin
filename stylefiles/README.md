@@ -1,5 +1,9 @@
+There are a number of styles in here.
 
-opentopomap style but modified to have green (forest) and water almost grey, from https://github.com/der-stefan/OpenTopoMap/blob/master/garmin
+* grey is opentopomap style but modified to have green (forest) and water almost grey, from https://github.com/der-stefan/OpenTopoMap/blob/master/garmin
+The grey style enables the planned route lines and turn indications to really stand out. This is useful when driving, as your main interest is on where to go.
+
+* Dark is also derived from the opentopomap style, but all colors have been made much darker. The original idea here was that this makes it easy to see the planned route lines to stand out. This works great inside a dimmer environment (eg, when it's dark). But it does not work so great in bright sunlight, where this style makes the screen just look black.
 
 
 After editing the typ.txt file you need to compile it with
