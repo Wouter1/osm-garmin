@@ -1,3 +1,6 @@
+The available styles
+====================
+
 There are a number of styles in here.
 
 * grey is opentopomap style but modified to have green (forest) and water almost grey, from https://github.com/der-stefan/OpenTopoMap/blob/master/garmin
@@ -5,8 +8,10 @@ The grey style enables the planned route lines and turn indications to really st
 
 * Dark is also derived from the opentopomap style, but all colors have been made much darker. The original idea here was that this makes it easy to see the planned route lines to stand out. This works great inside a dimmer environment (eg, when it's dark). But it does not work so great in bright sunlight, where this style makes the screen just look black.
 
+Changing a type 
+====
 
-After editing the typ.txt file you need to compile it with
+After editing a typ.txt file you need to compile it with
  ``java -cp "mkgmap.jar:lib/*.jar" uk.me.parabola.mkgmap.main.TypCompiler INPUT_FILE OUTPUT_FILE``
 
 eg
