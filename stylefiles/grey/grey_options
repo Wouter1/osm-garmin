@@ -43,3 +43,5 @@ process-destination
 process-exits
 order-by-decreasing-area
 keep-going
+#keep-complete  INVALUD OPTION!!?
+#ignore-osm-bounds
