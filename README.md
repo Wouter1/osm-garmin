@@ -26,13 +26,15 @@ Substitute "grey" with the style of your choice.
 5. mkdir work
 6. ``java -jar splitter/target/splitter-412-jar-with-dependencies.jar  --output-dir=work YOURCOUNTRY.osm.pbf``
 7. ``java -jar mkgmap/target/mkgmap-4855-jar-with-dependencies.jar --family-id=35 --output-dir=work stylefiles/grey/style/typ/grey.txt work/*.pbf``
-8. ``java -jar mkgmap/target/mkgmap-4855-jar-with-dependencies.jar --output-dir=work -c stylefiles/grey/grey_options --style-file=stylefiles/grey/style/grey work/*.pbf stylefiles/grey/style/typ/grey.typ``
+8. ``java -jar mkgmap/target/mkgmap-4855-jar-with-dependencies.jar  --code-page=1252 --mapname=XXXXXXXX --output-dir=work -c stylefiles/grey/grey_options --style-file=stylefiles/grey/style/grey work/*.pbf stylefiles/grey/style/typ/grey.typ``
+
+Replace XXXXXXXX with 8 random digits. This number should be different from the existing maps on your device. Or else the device will not recognise this properly as a new map, which may screw up caches and rendering.
 
 In  command 8, the map will be built without sea. To incorporate sea in your final map if needed,
 you need to download the latest sea information as well and replace command 8 :
 
 8.  go to https://www.mkgmap.org.uk/download/mkgmap.html and download the latest-sea.zip to your current directory
-9.  ``java -jar mkgmap/target/mkgmap-4855-jar-with-dependencies.jar --output-dir=work -c stylefiles/grey/grey_options --style-file=stylefiles/grey/style/grey/ --precomp-sea=sea-latest.zip work/*.pbf stylefiles/grey/style/typ/grey.typ``
+9.  ``java -jar mkgmap/target/mkgmap-4855-jar-with-dependencies.jar  --code-page=1252 --mapname=XXXXXXXX --output-dir=work -c stylefiles/grey/grey_options --style-file=stylefiles/grey/style/grey/ --precomp-sea=sea-latest.zip work/*.pbf stylefiles/grey/style/typ/grey.typ``
 
  
 
