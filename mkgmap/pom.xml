@@ -26,15 +26,10 @@
 
 
 	<dependencies>
-		<!-- crosby: https://github.com/openstreetmap/OSM-binary -->
-		<!-- Using 1.5.0 to match the splitter version -->
-		<!-- https://mvnrepository.com/artifact/org.openstreetmap.pbf/osmpbf -->
-		<!-- https://mvnrepository.com/artifact/crosby.binary/osmpbf -->
-		<!-- We SHOULD have usd 1.3.3 but I can't find it... -->
 		<dependency>
-			<groupId>crosby.binary</groupId>
-			<artifactId>osmpbf</artifactId>
-			<version>1.3.4</version>
+		  <groupId>org.openstreetmap.pbf</groupId>
+		  <artifactId>osmpbf</artifactId>
+		  <version>1.5.0</version>
 		</dependency>
 
 
