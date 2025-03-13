@@ -33,7 +33,7 @@ Replace XXXXXXXX with 8 random digits. This number should be different from the 
 In  command 8, the map will be built without sea. To incorporate sea in your final map if needed,
 you need to download the latest sea information as well and replace command 8 :
 
-8.  go to https://www.mkgmap.org.uk/download/mkgmap.html and download the latest-sea.zip to your current directory
+8.  go to https://www.mkgmap.org.uk/download/mkgmap.html and download the latest-sea.zip to your current directory. NOTE since 2024 this file seems unavailable. I use an old one now.
 9.  ``java -jar mkgmap/target/mkgmap-4855-jar-with-dependencies.jar  --code-page=1252 --mapname=XXXXXXXX --output-dir=work -c stylefiles/grey/grey_options --style-file=stylefiles/grey/style/grey/ --precomp-sea=sea-latest.zip work/*.pbf stylefiles/grey/style/typ/grey.typ``
 
  
