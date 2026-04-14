@@ -3,6 +3,8 @@ OSM-Garmin
 
 Tools to convert [openstreetmap.org OSM maps] to Garmin maps. Modified to get it building with maven.
 
+This also contains custom map render settings. The sample uses these to build a greyish map, so that your planned route stands out.
+
 Build both mkgmap and splitter with ```mvn clean package```
 
 The original, manuals other versions etc are on 
